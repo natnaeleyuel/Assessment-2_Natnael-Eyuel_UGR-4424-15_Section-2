@@ -1,0 +1,93 @@
+/* body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(104, 98, 98);
+}
+
+/* Header Section */
+.header {
+    color: #fff;
+    background-color: black;
+}
+
+.header .logo {
+    font-size: 3.3rem;
+}
+
+.header .logo_left {
+    color: rgb(245, 107, 15);
+}
+
+.header .nav ul li {
+    list-style: none;
+}
+
+.header .nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    background-color: rgb(123, 168, 18);
+}
+
+.header .nav ul li .active {
+    background-color: rgba(236, 110, 25, 0.8);
+}
+
+/* Main Section */
+/* Section 1 */
+.main .content img {
+    border: 5px solid rgb(231, 231, 231);
+}
+
+/* for contact page */
+.main .contact_section .contact form input, textarea{
+    border: 1px solid rgb(150, 145, 145);
+}
+
+.main .contact_section .contact form button{
+    border: 1px solid rgb(150, 145, 145);
+    color: rgb(104, 98, 98);
+}
+
+/* Sidebar */
+.main .section1 h2,
+.common {
+    color: rgb(123, 168, 18);
+}
+
+.main .sidebar ul li {
+    list-style: none;
+}
+
+.main .sidebar ul li a {
+    text-decoration: none;
+}
+
+.main .sponser a {
+    text-decoration: none;
+}
+
+/* Section 2 */
+.main .section2 {
+    color: #fff;
+    background-color: #1d251e;
+}
+
+.main .section2 p {
+    font-size: 0.9em;
+}
+
+/* Footer Section */
+footer {
+    background-color: black;
+    color: #fff;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer .active {
+    color: rgb(123, 168, 18);
+}

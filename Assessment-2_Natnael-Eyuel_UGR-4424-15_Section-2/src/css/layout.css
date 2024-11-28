@@ -1,0 +1,200 @@
+/* body */
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* Header Section */
+.header {
+    padding: 40px 0 30px 18%;
+}
+
+.header .slogan {
+    padding-left: 200px;
+    margin: 0;
+}
+
+.header .logo {
+    margin: 0 0 40px 0;
+}
+
+.header .nav ul {
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.header .nav ul li a {
+    padding: 10px 15px;
+}
+
+/* Main Section */
+.main {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+/* Section 1 */
+.main .section1 {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    gap: 11%;
+    padding: 3.5% 18%;
+}
+
+.main .home{
+    margin-bottom: 5%;
+}
+
+.main .content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 8%;
+}
+
+.main p {
+    line-height: 25px;
+}
+
+.main .content img {
+    width: 100%;
+}
+
+/* for contact page */
+.main .contact_section{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 8%;
+    padding: 3.5% 18%;
+    padding-right: 19%;
+}
+
+.main .contact_section .contact form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main .contact_section .contact form input, textarea{
+    width: 80%;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+
+.main .contact_section .contact form textarea{
+    min-height: 120px;
+}
+
+.main .contact_section .contact form button{
+    width: 10%;
+}
+
+/* Sidebar */
+.main .sidebar ul {
+    padding: 0;
+    margin: 0;
+}
+
+.main .sidebar ul li {
+    line-height: 50px;
+}
+
+.main .sponser div {
+    margin-bottom: 20px;
+}
+
+.main .sponser p {
+    margin: 0 0 10px 0;
+}
+
+/* Section 2 */
+.main .section2 {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    gap: 5.3%;
+    padding: 3% 18%;
+}
+
+.section2 .gallary div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3%;
+    margin-top: 30px;
+}
+
+.section2 .gallary div img {
+    width: 31%;
+    margin-bottom: 3%;
+}
+
+.main .section2 p {
+    padding: 0;
+    line-height: 25px;
+}
+
+.main .section2 .about div img {
+    width: 31%;
+    float: left;
+    margin-right: 4%;
+    margin-top: 9px;
+}
+
+.main .section2 .contact div {
+    margin-top: 20px;
+}
+
+.main .section2 .contact div p {
+    margin: 0;
+    width: 75%;
+}
+
+/* Footer Section */
+footer {
+    display: flex;
+    margin-top: 1px;
+    padding: 0 7% 0 18%;
+}
+
+.footer p {
+    line-height: 20px;
+}
+
+.footer ul {
+    width: 50%;
+    display: flex;
+    gap: 5%;
+    justify-content: flex-end;
+}
+
+.footer ul li {
+    list-style: none;
+    line-height: 25px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 991px) {
+    .header {
+        padding: 40px 0 30px 8%;
+    }
+
+    .main .section1 {
+        gap: 10%;
+        padding: 4% 12% 14% 8%;
+    }
+
+    .main .contact_section{   /* for contact page ul */
+        gap: 5%;
+        padding: 3.5% 8%;
+    }
+
+    .main .section2 {
+        padding: 3% 8%;
+        gap: 4%;
+    }
+
+    .footer {
+        padding: 0 4% 0 8%;
+    }
+}
